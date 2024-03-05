@@ -8,20 +8,23 @@ namespace CalculateOpdracht1
         {
             Console.WriteLine("Hello, World!");
 
-            int leeftijdStudent = 16;
+            int leeftijdStudent = 17;
 
             //nu ben je jarig, tel 1 bij je leeftijd op, gebruik de = A+1; constructie (zie video)
+            leeftijdStudent = leeftijdStudent + 1;
             Console.WriteLine("Year 1 Happy birthday!");
             Console.WriteLine($"je bent nu {leeftijdStudent}" );
 
 
 
             //nu ben je weer jarig, tel 1 bij je leeftijd op, gebruik de += 1; constructie (zie video)
+            leeftijdStudent += 1;
             Console.WriteLine("Year 2 Happy birthday!");
             Console.WriteLine($"je bent nu {leeftijdStudent}");
 
 
             //nu ben je weer jarig, tel 1 bij je leeftijd op, gebruik de ++; constructie (zie video)
+            leeftijdStudent++;
             Console.WriteLine("Year 3 Happy birthday!");
             Console.WriteLine($"je bent nu {leeftijdStudent}");
 
