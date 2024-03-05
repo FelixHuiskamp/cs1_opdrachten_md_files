@@ -17,9 +17,15 @@ namespace VariableOpdracht2
             //streamGame, waarde een nieuwe instance van Game (new Game("naam van de game hier"})
             //followers, waarde: hoeveel followers
             //automod, waarde: staat automod aan?
+            twitchStream.automod=true;
+            twitchStream.name= "Pyrocinical"; 
+            twitchStream.lastStreamName = "HELP";
+            twitchStream.streamGame = (new Game("minesweeper"));
+            twitchStream.followers = 968000;
 
 
-            Console.WriteLine("Hello, World!");
+
+            Console.WriteLine(twitchStream.lastStreamName);
         }
     }
 }

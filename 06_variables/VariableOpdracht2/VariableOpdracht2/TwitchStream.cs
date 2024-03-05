@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http.Headers;
 
 namespace VariableOpdracht2
 {
@@ -10,6 +11,11 @@ namespace VariableOpdracht2
         // type=Game, naam: streamGame
         // type=int, naam: followers
         // type=bool, naam: automod
+        internal string name;
+        internal string lastStreamName;
+        internal Game streamGame;
+        internal int followers;
+        internal bool automod;
         
     }
 }
